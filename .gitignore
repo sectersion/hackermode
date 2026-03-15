@@ -1,0 +1,19 @@
+# Rust
+/target/
+
+
+# Node / TypeScript
+node_modules/
+dist/
+*.js.map
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# hackermode runtime
+.hm/
