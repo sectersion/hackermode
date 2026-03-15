@@ -1,0 +1,36 @@
+[plugin]
+name = "hm"
+description = "hackermode core — help, version, config, package manager"
+version = "0.1.0"
+
+[run]
+runtime = "node"
+entry = "index.js"
+
+[[commands]]
+name = "help"
+description = "List all plugins and commands"
+
+[[commands]]
+name = "version"
+description = "Print hackermode version"
+
+[[commands]]
+name = "plugins"
+description = "List installed plugins with status"
+
+[[commands]]
+name = "config"
+description = "Print the current config file"
+
+[[commands]]
+name = "install"
+description = "Install hm binary to PATH"
+
+[[commands]]
+name = "uninstall"
+description = "Remove hm binary from PATH"
+
+[[commands]]
+name = "plugin"
+description = "Package manager — add, remove, enable, disable, list, info"
