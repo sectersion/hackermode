@@ -1,0 +1,14 @@
+[module]
+id          = "examples.echo-tui"
+name        = "Echo (TUI)"
+version     = "0.1.0"
+description = "A tiny Bubble Tea program shown via PTY. Demonstrates RunTUI."
+author      = "hackermode"
+license     = "MIT"
+
+[entry]
+binary = "echo-tui"
+mode   = "tui"
+
+[capabilities]
+required = []

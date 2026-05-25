@@ -1,0 +1,21 @@
+[module]
+id          = "examples.echo-stream"
+name        = "Echo (stream)"
+version     = "0.1.0"
+description = "Reads stdin lines, echoes them back. Demonstrates stream-mode SDK."
+author      = "hackermode"
+license     = "MIT"
+
+[entry]
+binary = "echo-stream"
+mode   = "stream"
+ansi   = false
+
+[capabilities]
+required = []
+
+[[commands]]
+id    = "examples.echo-stream.greet"
+title = "Echo: Greet"
+hint  = "Send a greeting"
+tags  = ["echo", "demo"]

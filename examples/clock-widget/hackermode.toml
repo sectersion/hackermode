@@ -1,0 +1,14 @@
+[module]
+id          = "examples.clock-widget"
+name        = "Clock"
+version     = "0.1.0"
+description = "Pushes the current time as a side-panel widget. Demonstrates SetPanelWidget."
+author      = "hackermode"
+license     = "MIT"
+
+[entry]
+binary = "clock-widget"
+mode   = "stream"
+
+[capabilities]
+required = []
